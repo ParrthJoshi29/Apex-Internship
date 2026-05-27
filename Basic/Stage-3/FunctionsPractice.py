@@ -92,40 +92,60 @@ def pre_defined_functions():
     roundd()
     poww()
 
-function_without_parameters()
+def recursive_function(n):
+    if n > 5:
+        print("This is a recursive function.")
+        return
+    print(n)
+
+    recursive_function(n + 1)
+
+lambda_function = lambda a,b : a+ b
+
+#function_without_parameters()
+#print()
+
+#function_with_parameters("Parth")
+#print()
+
+#function_with_multiple_parameters("Parth", 20)
+#print()
+
+#print("This is a function with a return value.")
+#result = function_with_return_value(5, 10)
+#print("The result of the function is:", result)
+#print()
+
+#x = using_print()
+#print(x)
+
+#y = using_return()
+#print("\n",y)
+
+#function_with_default_parameters()
+#function_with_default_parameters("Japan")
+#print()
+
+#keyword_arguments(name = "Parth", age = 20)
+#print()
+
+#n = int(input("Enter a number to check if it is even or odd: "))
+#print("The number is:", function_with_conditional_statements(n))
+#print()
+
+#function_with_loop(5)
+#print()
+
+#pre_defined_functions()
+#print()
+
+#recursive_function(1)
+#print()
+
+#Syntax- lambda parameters : expression
+print("This is a lambda function.")
+print(lambda_function(5, 10))
 print()
 
-function_with_parameters("Parth")
-print()
 
-function_with_multiple_parameters("Parth", 20)
-print()
-
-print("This is a function with a return value.")
-result = function_with_return_value(5, 10)
-print("The result of the function is:", result)
-print()
-
-x = using_print()
-print(x)
-
-y = using_return()
-print("\n",y)
-
-function_with_default_parameters()
-function_with_default_parameters("Japan")
-print()
-
-keyword_arguments(name = "Parth", age = 20)
-print()
-
-n = int(input("Enter a number to check if it is even or odd: "))
-print("The number is:", function_with_conditional_statements(n))
-print()
-
-function_with_loop(5)
-print()
-
-pre_defined_functions()
-print()
 
